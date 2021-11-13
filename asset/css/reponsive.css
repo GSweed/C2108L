@@ -1,0 +1,64 @@
+/* reponsive PC */
+@media (min-width:64em)
+{
+    .slider img{
+        padding-left: 2%;
+        padding-right: 2%;
+        max-width: 100% !important;
+    }
+}
+/* reponsive tablet */
+@media (min-width:46.25em) and (max-width:63.9375em)
+{
+    .slider img{
+        padding-left: 2%;
+        padding-right: 2%;
+        max-width: 100% !important;
+    }
+
+    .nav-BTN{
+        display: block;
+        margin-top: 10px;
+        float: right;
+
+    }
+    .nav-bar{
+        display: none;
+    }
+
+    .Projects-contain .img-projects {
+        display: inline-block;
+        width: 49%;
+        padding-left: 10px;
+        padding-top: 10px;
+        max-width: 100%;
+    }
+    
+}
+/* reponsive mobile */
+@media (max-width:46.25em)
+{
+    .slider img{
+        padding-left: 2%;
+        padding-right: 2%;
+        max-width: 100% !important;
+    }
+
+    .nav-BTN{
+        display: block;
+        margin-top: 10px;
+        float: right;
+
+    }
+    .nav-bar{
+        display: none;
+    }
+
+    .Projects-contain .img-projects {
+        display: inline-block;
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 10px;
+        max-width: 100%;
+    }
+}

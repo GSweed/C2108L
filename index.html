@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../BR-pj/asset/css/style.css">
+    <link rel="stylesheet" href="../BR-pj/asset/css/reponsive.css">
 </head>
 <body>
     <div id="header">
@@ -16,7 +17,22 @@
             <div class="nav-bar">
                 <a href="#Contain-Project" class="nav-button">Projects</a>
                 <a href="#Contain-About" class="nav-button">About</a>
-                <a href="" class="nav-button">Contact</a>
+                <a href="#Contact" class="nav-button">Contact</a>
+            </div>
+            <label for="nav-mobile-input" class="nav-BTN">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+            </label>
+            <input type="checkbox" class="nav-input" id="nav-mobile-input">
+            <label for="nav-mobile-input" class="nav-overlay"></label>
+            <div class="nav-mobile">
+                <ol class="nav-mobile-list">
+                    <li class="nav-mobile-link"><a href="#Contain-Project" class="nav-button">Projects</a></li>
+                    <li class="nav-mobile-link"><a href="#Contain-About" class="nav-button">About</a></li>
+                    <li class="nav-mobile-link"><a href="#Contact" class="nav-button">Contact</a></li>
+                </ol>
+                <label for="nav-mobile-input" class="nav-mobile-close">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                </label>
             </div>
         </div>
 
@@ -80,7 +96,7 @@
                         <img src="./asset/img/team1.jpg" alt="" width="100%">
                         <div class="info-about">
                             <h3>John Doe</h3>
-                            <h5>CEO & Founder</h5>
+                            <h4>Architect</h4>
                             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
                             <button class="Contact-BTN">Contact</button>
                         </div>
@@ -89,7 +105,7 @@
                         <img src="./asset/img/team2.jpg" alt="" width="100%">
                         <div class="info-about">
                             <h3>Jane Doe</h3>
-                            <h5>Architect</h5>
+                            <h4>Architect</h4>
                             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
                             <button class="Contact-BTN">Contact</button>
                         </div>
@@ -98,7 +114,7 @@
                         <img src="./asset/img/team3.jpg" alt="" width="100%">
                         <div class="info-about">
                             <h3>Mike Ross</h3>
-                            <h5>Architect</h5>
+                            <h4>Architect</h4>
                             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
                             <button class="Contact-BTN">Contact</button>
                         </div>
@@ -107,7 +123,7 @@
                         <img src="./asset/img/team4.jpg" alt="" width="100%">
                         <div class="info-about">
                             <h3>Dan Star</h3>
-                            <h5>Architect</h5>
+                            <h4>Architect</h4>
                             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
                             <button class="Contact-BTN">Contact</button>
                         </div>
@@ -115,7 +131,7 @@
                 </div>
             </div>
         </div>
-        <div class="Contact">
+        <div id="Contact">
             <div class="Projects">
                 <div class="title">
                     <h2>Contact</h2>
